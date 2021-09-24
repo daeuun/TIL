@@ -10,7 +10,7 @@ I constantly learn new things. This is a repo to share those learnings.
 ## SQL
 + [NVL][NVL]
 + [include refid][include refid]
-+ [NVL][NVL]
++ [selectKey][selectKey]
 
 
 [패킷]: https://github.com/daeuun/TIL/blob/main/Computer%20Science/Network/%ED%8C%A8%ED%82%B7.md
