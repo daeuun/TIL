@@ -6,6 +6,7 @@ I constantly learn new things. This is a repo to share those learnings.
 ## Computer Science
 + Network
   + [패킷][패킷]
+  + [웹소켓][웹소켓]
 
 ## SQL
 + [NVL][NVL]
@@ -17,3 +18,4 @@ I constantly learn new things. This is a repo to share those learnings.
 [NVL]: https://github.com/daeuun/TIL/blob/main/SQL/NVL.md
 [include refid]: https://github.com/daeuun/TIL/blob/main/SQL/include%20refid.md
 [selectKey]: https://github.com/daeuun/TIL/blob/main/SQL/selectKey.md
+[웹소켓]: https://github.com/daeuun/TIL/blob/main/Computer%20Science/Network/%EC%9B%B9%EC%86%8C%EC%BC%93.md
