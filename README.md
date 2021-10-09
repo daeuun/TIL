@@ -12,6 +12,7 @@ I constantly learn new things. This is a repo to share those learnings.
 + [NVL][NVL]
 + [include refid][include refid]
 + [selectKey][selectKey]
++ [SELECT INTO][SELECT INTO]
 
 ## Java
 + [싱글턴(SingleTon) 패턴][싱글턴패턴]
@@ -19,6 +20,14 @@ I constantly learn new things. This is a repo to share those learnings.
 + [Checked Exception과 Unchecked Exception][Checked Exception과 Unchecked Exception]
 + [event:init][event:init]
 + [iterator][iterator]
+
+## DB
++ [index][index]
+
+## ECT
++ [calc()][calc()]
++ [getRowData][getRowData]
++ [setCookie(id, value, expires)][setCookie(id, value, expires)]
 
 
 [패킷]: https://github.com/daeuun/TIL/blob/main/Computer%20Science/Network/%ED%8C%A8%ED%82%B7.md
@@ -31,3 +40,9 @@ I constantly learn new things. This is a repo to share those learnings.
 [Checked Exception과 Unchecked Exception]: https://github.com/daeuun/TIL/blob/main/Java/Checked%20Exception%EA%B3%BC%20Unchecked%20Exception.md
 [event:init]: https://github.com/daeuun/TIL/blob/main/Java/event_init.md
 [iterator]: https://github.com/daeuun/TIL/blob/main/Java/iterator.md
+[index]: https://github.com/daeuun/TIL/blob/main/DB/index.md
+[calc()]: https://github.com/daeuun/TIL/blob/main/ECT/calc().md
+[getRowData]: https://github.com/daeuun/TIL/blob/main/ECT/getRowData.md
+[setCookie(id, value, expires)]: https://github.com/daeuun/TIL/blob/main/ECT/setCookie(id%2C%20value%2C%20expires).md
+[SELECT INTO]: https://github.com/daeuun/TIL/blob/main/SQL/SELECT%20INTO.md
+
