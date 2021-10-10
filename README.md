@@ -20,6 +20,7 @@ I constantly learn new things. This is a repo to share those learnings.
 + [Checked Exception과 Unchecked Exception][Checked Exception과 Unchecked Exception]
 + [event:init][event:init]
 + [iterator][iterator]
++ [Static][Static]
 
 ## DB
 + [index][index]
@@ -45,4 +46,4 @@ I constantly learn new things. This is a repo to share those learnings.
 [getRowData]: https://github.com/daeuun/TIL/blob/main/ECT/getRowData.md
 [setCookie(id, value, expires)]: https://github.com/daeuun/TIL/blob/main/ECT/setCookie(id%2C%20value%2C%20expires).md
 [SELECT INTO]: https://github.com/daeuun/TIL/blob/main/SQL/SELECT%20INTO.md
-
+[Static]: https://github.com/daeuun/TIL/blob/main/Java/Static.md
