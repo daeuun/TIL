@@ -21,6 +21,7 @@ I constantly learn new things. This is a repo to share those learnings.
 + [event:init][event:init]
 + [iterator][iterator]
 + [Static][Static]
++ [try-with-resource][try-with-resource]
 
 ## DB
 + [index][index]
@@ -47,3 +48,4 @@ I constantly learn new things. This is a repo to share those learnings.
 [setCookie(id, value, expires)]: https://github.com/daeuun/TIL/blob/main/ECT/setCookie(id%2C%20value%2C%20expires).md
 [SELECT INTO]: https://github.com/daeuun/TIL/blob/main/SQL/SELECT%20INTO.md
 [Static]: https://github.com/daeuun/TIL/blob/main/Java/Static.md
+[try-with-resource]: https://github.com/daeuun/TIL/blob/main/Java/try-with-resource.md
