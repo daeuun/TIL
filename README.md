@@ -22,6 +22,7 @@ I constantly learn new things. This is a repo to share those learnings.
 + [iterator][iterator]
 + [Static][Static]
 + [try-with-resource][try-with-resource]
++ [Enum Type][Enum Type]
 
 ## DB
 + [index][index]
@@ -49,3 +50,4 @@ I constantly learn new things. This is a repo to share those learnings.
 [SELECT INTO]: https://github.com/daeuun/TIL/blob/main/SQL/SELECT%20INTO.md
 [Static]: https://github.com/daeuun/TIL/blob/main/Java/Static.md
 [try-with-resource]: https://github.com/daeuun/TIL/blob/main/Java/try-with-resource.md
+[Enum Type]: https://github.com/daeuun/TIL/blob/main/Java/Enum.md
