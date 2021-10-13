@@ -23,6 +23,7 @@ I constantly learn new things. This is a repo to share those learnings.
 + [Static][Static]
 + [try-with-resource][try-with-resource]
 + [Enum Type][Enum Type]
++ [JVM][JVM]
 
 ## DB
 + [index][index]
@@ -51,3 +52,4 @@ I constantly learn new things. This is a repo to share those learnings.
 [Static]: https://github.com/daeuun/TIL/blob/main/Java/Static.md
 [try-with-resource]: https://github.com/daeuun/TIL/blob/main/Java/try-with-resource.md
 [Enum Type]: https://github.com/daeuun/TIL/blob/main/Java/Enum.md
+[JVM]: https://github.com/daeuun/TIL/blob/main/Java/JVM.md
