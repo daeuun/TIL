@@ -24,6 +24,7 @@ I constantly learn new things. This is a repo to share those learnings.
 + [try-with-resource][try-with-resource]
 + [Enum Type][Enum Type]
 + [JVM][JVM]
++ [Bind Variable(바인드변수)][Bind Variable(바인드변수)]
 
 ## DB
 + [index][index]
@@ -53,3 +54,4 @@ I constantly learn new things. This is a repo to share those learnings.
 [try-with-resource]: https://github.com/daeuun/TIL/blob/main/Java/try-with-resource.md
 [Enum Type]: https://github.com/daeuun/TIL/blob/main/Java/Enum.md
 [JVM]: https://github.com/daeuun/TIL/blob/main/Java/JVM.md
+[Bind Variable(바인드변수)]: https://github.com/daeuun/TIL/blob/main/Java/Bind%20Variable.md
