@@ -26,6 +26,7 @@ I constantly learn new things. This is a repo to share those learnings.
 + [JVM][JVM]
 + [Bind Variable(바인드변수)][Bind Variable(바인드변수)]
 + [if-else, switch][if-else, switch]
++ [Promise, Deferred][Promise, Deferred]
 
 ## DB
 + [index][index]
@@ -57,3 +58,4 @@ I constantly learn new things. This is a repo to share those learnings.
 [JVM]: https://github.com/daeuun/TIL/blob/main/Java/JVM.md
 [Bind Variable(바인드변수)]: https://github.com/daeuun/TIL/blob/main/Java/Bind%20Variable.md
 [if-else, switch]: https://github.com/daeuun/TIL/blob/main/Java/if-else%2C%20switch.md
+[Promise, Deferred]: https://github.com/daeuun/TIL/blob/main/Java/Promise%2C%20Deferred.md
