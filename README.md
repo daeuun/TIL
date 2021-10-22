@@ -32,6 +32,7 @@ I constantly learn new things. This is a repo to share those learnings.
 
 ## DB
 + [index][index]
++ [트랜잭션(Transaction)][트랜잭션(Transaction)]
 
 ## ECT
 + [calc()][calc()]
@@ -63,3 +64,4 @@ I constantly learn new things. This is a repo to share those learnings.
 [Promise, Deferred]: https://github.com/daeuun/TIL/blob/main/Java/Promise%2C%20Deferred.md
 [Race Condition]: https://github.com/daeuun/TIL/blob/main/Computer%20Science/Network/Race%20Condition.md
 [String, StringBuilder, StringBuffer]: https://github.com/daeuun/TIL/blob/main/Java/String%2C%20StringBuilder%2C%20StringBuffer.md
+[트랜잭션(Transaction)]: https://github.com/daeuun/TIL/blob/main/DB/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98%20Transaction.md
