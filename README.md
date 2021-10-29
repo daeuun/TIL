@@ -42,6 +42,7 @@ I constantly learn new things. This is a repo to share those learnings.
 + [calc()][calc()]
 + [getRowData][getRowData]
 + [setCookie(id, value, expires)][setCookie(id, value, expires)]
++ [서버 재실행 없이 XML적용하기][서버 재실행 없이 XML적용하기]
 
 
 [패킷]: https://github.com/daeuun/TIL/blob/main/Computer%20Science/Network/%ED%8C%A8%ED%82%B7.md
@@ -71,3 +72,4 @@ I constantly learn new things. This is a repo to share those learnings.
 [트랜잭션(Transaction)]: https://github.com/daeuun/TIL/blob/main/DB/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98%20Transaction.md
 [server.js (Express로 웹서버 실행하기)]: https://github.com/daeuun/TIL/blob/main/Node.js/server.js%20(Express%EB%A1%9C%20%EC%9B%B9%EC%84%9C%EB%B2%84%20%EC%8B%A4%ED%96%89%ED%95%98%EA%B8%B0).md
 [세마포어(Semaphore) & 뮤텍스(Mutex)]: https://github.com/daeuun/TIL/blob/main/Computer%20Science/Network/%EC%84%B8%EB%A7%88%ED%8F%AC%EC%96%B4(Semaphore)%20%26%20%EB%AE%A4%ED%85%8D%EC%8A%A4(Mutex).md
+[서버 재실행 없이 XML적용하기]: https://github.com/daeuun/TIL/blob/main/ECT/%EC%84%9C%EB%B2%84%20%EC%9E%AC%EC%8B%A4%ED%96%89%20%EC%97%86%EC%9D%B4%20XML%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0.md
