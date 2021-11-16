@@ -11,7 +11,7 @@ I constantly learn new things. This is a repo to share those learnings.
   + [세마포어(Semaphore) & 뮤텍스(Mutex)][세마포어(Semaphore) & 뮤텍스(Mutex)]
 
 ## SQL
-+ [NVL][NVL]
++ [NVL & NVL2][NVL]
 + [include refid][include refid]
 + [selectKey][selectKey]
 + [SELECT INTO][SELECT INTO]
