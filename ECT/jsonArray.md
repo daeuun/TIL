@@ -2,7 +2,7 @@
 
 `"key-value"`가 쌍으로 이루어진 데이터들의 집합
 
-```jsx
+```JavaScript
 // JSON 기본 구조
 "key" : "value"
 
