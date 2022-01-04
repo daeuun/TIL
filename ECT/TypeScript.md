@@ -1,3 +1,5 @@
+## javascript
+javascript는 Dynamic typing 을 지원하는 언어
 
 ``` javascript
 5 - '3'
@@ -26,6 +28,19 @@ let 이름3 :{ name? : String } = { name : '이다은' };
 
 
 ```
+
+## tsconfig.json
+ts -> js로 컴파일 하는 옵션 설정하는 곳
+```json
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+    }
+}
+```
+
+
 
 ## 2. TypeScript의 장점
 
