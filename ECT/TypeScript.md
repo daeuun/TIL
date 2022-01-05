@@ -11,7 +11,7 @@ javascript는 Dynamic typing 을 지원하는 언어
 + 타입스크립트는 구체적으로 알려줌
 
 
-## typescript 변수 
+## typescript 타입지정
 
 ``` typescript
 // 브라우저는 ts파일을 못 읽어서 무조건 js파일로 변환해서 써야함 
@@ -26,6 +26,46 @@ let 이름3 :{ name? : String } = { name : '이다은' };
 // Object 
 // name? = name속성은 옵션 = 들어올 수도 있고 아닐 수도 있다
 
+let 이름4 :string | number = '이다은';
+이름4 = 123; // 오류가 나지 않음!
+// 다양한 종류의 타입 지정 Union Type (|기호 사용)
+
+type Name = String | number;
+let 이름5 :Name = '이다은';
+// 타입을 변수에 담아서 쓸 수 있음 Type Alias
+// 오.. 방금 오류났는데 오타 생긴 것도 다 잡아줌 Unknown keyword or identifier. Did you mean 'type'?ts(1435) Cannot find name 'Type'.ts(2304)
+// 타입명은 주로 대문자로 많이 사용함
+
+function 함수(x :number) :number {
+    return x * 2;
+}
+// 함수 파라미터에서도 타입 지정 가능
+// return에 대한 타입 지정은 ()중괄호 다음에 작성
+
+type Member = [number, boolean];
+// Array에 쓰는 tuple 타입
+// => 무조건 이 Array의 첫번째는 number, 두번째는 boolean
+let ori:Member = [123, true];
+
+type Member2 = {
+    name : string
+}
+let ori2 :Member2 = { name : 'daeun'};
+
+// object에 지정해야할 속성들이 너무 많으면 key에 담아서 한번에 지정하기
+// => 글자로 된 모든 object의 속성의 타입은 string
+type Member3 = {
+    [key:string] : string,
+}
+let ori3 :Member3 = { name : 'daeun', age : '29'};
+
+class User {
+    name :string;
+    constructor(name :string) {
+        this.name = name;
+    }   
+}
+// class 타입지정
 
 ```
 
