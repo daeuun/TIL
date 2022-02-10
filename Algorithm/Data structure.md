@@ -200,8 +200,6 @@ Directed graph는 한쪽 방향 밖에 없어서 일방통행과 같고, undirec
 | --- | --- | --- | --- | --- |
 | Graph | O(|N| + |E|) | O(1) | O(|N| + |E|) | O(|E|) |
 
-![https://media.vlpt.us/images/jha0402/post/6c15078f-ace8-4441-b0e9-6ab10b808690/image.png](https://media.vlpt.us/images/jha0402/post/6c15078f-ace8-4441-b0e9-6ab10b808690/image.png)
-
 
 **장점**
 
