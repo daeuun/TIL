@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>WebSocket Test</title>
+    <script language="javascript" type="text/javascript">
+
+    var wsUri = "ws://localhost:8181/";
+    var websocket;
+    var output;
+
+    function init() {
+        output = document.getElementById("output");
+        testWebSocket();
+    }
+
+    function testWebSocket() {
+        websocket = new WebSocket(wsUri);
+        websocket.onopen = function (evt) { onOpen(evt) };
+        websocket.onclose = function (evt) { onClose(evt) };
+        websocket.onmessage = function (evt) { onMessage(evt) };
+        websocket.onerror = function (evt) { onError(evt) };
+    }
+
+    function onOpen(evt) {
+        writeToScreen("CONNECTED");
+        doSend("WebSocket rocks");
+    }
+
+    function onClose(evt) {
+        writeToScreen("DISCONNECTED");
+        console.log(evt);
+    }
+
+    function onMessage(evt) {
+        writeToScreen('<span style="color: blue;">RESPONSE: ' + evt.data + '</span>');
+    }
+
+    function onError(evt) {
+        writeToScreen('<span style="color: red;">ERROR:</span> ' + evt.data);
+        console.log(evt);
+    }
+
+    function doSend() {
+        var message = document.getElementById('txtMsg').value;
+        writeToScreen("SENT: " + message);
+        websocket.send(message);
+    }
+
+    function writeToScreen(message) {
+        var pre = document.createElement("p");
+        pre.style.wordWrap = "break-word";
+        pre.innerHTML = message;
+        output.appendChild(pre);
+    }
+
+    function terminate() {
+        websocket.close();
+    }
+
+    window.addEventListener("load", init, false);
+
+  </script>
+</head>
+
+<body>
+    <h2>WebSocket Test</h2>
+    <table>
+        <thead>
+            <tr>
+                <th><textarea id="txtMsg" rows="5" cols="100" style="padding:10px;"></textarea></th>
+            </tr>
+            <tr>
+                <td>
+                    <button onclick="doSend()">Send</button>
+                    <button onclick="terminate()">Terminate</button>
+                </td>
+            </tr>
+        </thead>
+    </table>
+    <div id="output"></div>
+</body>
+
+</html>
